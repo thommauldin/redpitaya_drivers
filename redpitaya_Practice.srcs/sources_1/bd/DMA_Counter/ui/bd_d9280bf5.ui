@@ -1,0 +1,56 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port D6A -pg 1 -y 890 -defaultsOSRD
+preplace port D10A -pg 1 -y 970 -defaultsOSRD
+preplace port DDR -pg 1 -y 430 -defaultsOSRD
+preplace port D0A -pg 1 -y 340 -defaultsOSRD
+preplace port D5A -pg 1 -y 870 -defaultsOSRD
+preplace port clk_n -pg 1 -y 850 -defaultsOSRD
+preplace port D4A -pg 1 -y 450 -defaultsOSRD
+preplace port clk_p -pg 1 -y 830 -defaultsOSRD
+preplace port D9A -pg 1 -y 950 -defaultsOSRD
+preplace port D8A -pg 1 -y 910 -defaultsOSRD
+preplace port D3A -pg 1 -y 810 -defaultsOSRD
+preplace port D12A -pg 1 -y 1010 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 450 -defaultsOSRD
+preplace port D13A -pg 1 -y 1030 -defaultsOSRD
+preplace port D2A -pg 1 -y 430 -defaultsOSRD
+preplace port D11A -pg 1 -y 990 -defaultsOSRD
+preplace port D7A -pg 1 -y 930 -defaultsOSRD
+preplace port D1A -pg 1 -y 410 -defaultsOSRD
+preplace inst rst_ps7_0_125M -pg 1 -lvl 1 -y 90 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 5 -y 690 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -y 490 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 3 -y 640 -defaultsOSRD
+preplace inst AXIS_Test_v1_0_0 -pg 1 -lvl 5 -y 960 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 4 -y 610 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 1 -y 290 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 1 -y 690 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -y 630 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 2 4 1030J 430 NJ 430 NJ 430 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 0 3 30 830 NJ 830 1040
+preplace netloc Parallel_ADC_Stream_0_m00_axis_tlast 1 0 5 -40 880 NJ 880 NJ 880 NJ 880 1750
+preplace netloc axi_smc_M00_AXI 1 1 3 540 760 NJ 760 1350
+preplace netloc rst_ps7_0_125M_peripheral_aresetn 1 0 5 20 860 510 720 1060 730 1380 780 1740
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 3 -50 900 NJ 900 1030
+preplace netloc Parallel_ADC_Stream_0_m00_axis_tdata 1 0 5 0 850 530J 740 NJ 740 NJ 740 1720
+preplace netloc rst_ps7_0_125M_interconnect_aresetn 1 0 2 -10 910 480
+preplace netloc ps7_0_axi_periph_M01_AXI 1 1 3 500 540 NJ 540 1380J
+preplace netloc axi_gpio_0_gpio_io_o 1 4 1 1730
+preplace netloc xlconstant_0_dout 1 1 4 NJ 490 NJ 490 NJ 490 1770J
+preplace netloc Parallel_ADC_Stream_0_m00_axis_tvalid 1 0 5 -30 890 NJ 890 NJ 890 NJ 890 1760
+preplace netloc processing_system7_0_FIXED_IO 1 2 4 1070J 450 NJ 450 NJ 450 NJ
+preplace netloc AXIS_Test_v1_0_0_m00_axis 1 4 2 1780 840 2210
+preplace netloc axi_dma_0_M_AXI_S2MM 1 2 4 1070 830 NJ 830 NJ 830 2210
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 5 -20 840 520 750 1050 750 1360 750 1770
+preplace netloc Net 1 0 5 10 870 NJ 870 NJ 870 1370J 700 N
+preplace netloc D0A_1 1 0 1 N
+preplace netloc ps7_0_axi_periph_M00_AXI 1 1 4 490 530 NJ 530 NJ 530 1730J
+levelinfo -pg 1 -70 310 800 1210 1580 2010 2230 -top 0 -bot 1210
+",
+}
+{
+   da_clkrst_cnt: "1",
+}

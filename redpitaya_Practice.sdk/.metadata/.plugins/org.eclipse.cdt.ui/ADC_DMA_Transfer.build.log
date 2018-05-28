@@ -1,0 +1,23 @@
+12:04:50 **** Auto Build of configuration Debug for project ADC_DMA_Transfer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Polling_DMA.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Polling_DMA.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../H_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Polling_DMA.d" -MT"src/Polling_DMA.o" -o "src/Polling_DMA.o" "../src/Polling_DMA.c"
+'Finished building: ../src/Polling_DMA.c'
+' '
+'Building target: ADC_DMA_Transfer.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../H_bsp/ps7_cortexa9_0/lib -o "ADC_DMA_Transfer.elf"  ./src/Polling_DMA.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ADC_DMA_Transfer.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ADC_DMA_Transfer.elf  |tee "ADC_DMA_Transfer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  38200	   2252	  24504	  64956	   fdbc	ADC_DMA_Transfer.elf
+'Finished building: ADC_DMA_Transfer.elf.size'
+' '
+
+12:04:55 Build Finished (took 4s.889ms)
+
