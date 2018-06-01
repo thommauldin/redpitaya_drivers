@@ -2,16 +2,33 @@
    ExpandedHierarchyInLayout: "",
    guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
 #  -string -flagsOSRD
-preplace port DDR -pg 1 -y -300 -defaultsOSRD
-preplace port FIXED_IO -pg 1 -y -280 -defaultsOSRD
-preplace inst dds_compiler_0 -pg 1 -lvl 1 -y -70 -defaultsOSRD
-preplace inst processing_system7_0 -pg 1 -lvl 1 -y -260 -defaultsOSRD
-preplace netloc processing_system7_0_DDR 1 1 1 NJ
-preplace netloc processing_system7_0_FIXED_IO 1 1 1 NJ
-preplace netloc processing_system7_0_FCLK_CLK0 1 0 2 10 -170 410
-levelinfo -pg 1 -10 210 430 -top -350 -bot 180
+preplace port DDR -pg 1 -y 50 -defaultsOSRD
+preplace port dac_rst_o -pg 1 -y 160 -defaultsOSRD
+preplace port dac_clk_o -pg 1 -y 140 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 70 -defaultsOSRD
+preplace port dac_sel_o -pg 1 -y 180 -defaultsOSRD
+preplace port dac_wrt_o -pg 1 -y 200 -defaultsOSRD
+preplace portBus dac_dat_o -pg 1 -y 220 -defaultsOSRD
+preplace inst dds_compiler_0 -pg 1 -lvl 1 -y 240 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 1 -y 410 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 2 -y 470 -defaultsOSRD
+preplace inst axis_red_pitaya_dac_0 -pg 1 -lvl 2 -y 270 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 90 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 1 2 NJ 50 NJ
+preplace netloc axis_red_pitaya_dac_0_dac_rst 1 1 2 460 150 870
+preplace netloc axis_red_pitaya_dac_0_dac_sel 1 1 2 470 170 850
+preplace netloc axis_red_pitaya_dac_0_dac_wrt 1 1 2 450 160 860
+preplace netloc dds_compiler_0_m_axis_data_tdata 1 1 1 430
+preplace netloc processing_system7_0_FIXED_IO 1 1 2 NJ 70 NJ
+preplace netloc dds_compiler_0_M_AXIS_DATA 1 1 1 N
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 2 20 180 420
+preplace netloc axis_red_pitaya_dac_0_dac_clk 1 1 2 440 140 880
+preplace netloc clk_wiz_clk_out1 1 1 1 N
+preplace netloc axis_red_pitaya_dac_0_dac_dat 1 1 2 480 180 840
+levelinfo -pg 1 0 220 660 900 -top 0 -bot 590
 ",
 }
 {
+   da_clkrst_cnt: "1",
    da_ps7_cnt: "1",
 }

@@ -1,0 +1,429 @@
+
+*** Running vivado
+    with args -log DAC_dds_compiler_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source DAC_dds_compiler_0_0.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source DAC_dds_compiler_0_0.tcl -notrace
+Command: synth_design -top DAC_dds_compiler_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10376 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 357.520 ; gain = 104.621
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'DAC_dds_compiler_0_0' [d:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.srcs/sources_1/bd/DAC/ip/DAC_dds_compiler_0_0/synth/DAC_dds_compiler_0_0.vhd:67]
+WARNING: [Synth 8-5640] Port 'debug_axi_pinc_in' is missing in component declaration [d:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.srcs/sources_1/bd/DAC/ip/DAC_dds_compiler_0_0/synth/DAC_dds_compiler_0_0.vhd:70]
+WARNING: [Synth 8-5640] Port 'debug_axi_poff_in' is missing in component declaration [d:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.srcs/sources_1/bd/DAC/ip/DAC_dds_compiler_0_0/synth/DAC_dds_compiler_0_0.vhd:70]
+WARNING: [Synth 8-5640] Port 'debug_axi_resync_in' is missing in component declaration [d:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.srcs/sources_1/bd/DAC/ip/DAC_dds_compiler_0_0/synth/DAC_dds_compiler_0_0.vhd:70]
+WARNING: [Synth 8-5640] Port 'debug_axi_chan_in' is missing in component declaration [d:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.srcs/sources_1/bd/DAC/ip/DAC_dds_compiler_0_0/synth/DAC_dds_compiler_0_0.vhd:70]
+WARNING: [Synth 8-5640] Port 'debug_core_nd' is missing in component declaration [d:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.srcs/sources_1/bd/DAC/ip/DAC_dds_compiler_0_0/synth/DAC_dds_compiler_0_0.vhd:70]
+WARNING: [Synth 8-5640] Port 'debug_phase' is missing in component declaration [d:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.srcs/sources_1/bd/DAC/ip/DAC_dds_compiler_0_0/synth/DAC_dds_compiler_0_0.vhd:70]
+WARNING: [Synth 8-5640] Port 'debug_phase_nd' is missing in component declaration [d:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.srcs/sources_1/bd/DAC/ip/DAC_dds_compiler_0_0/synth/DAC_dds_compiler_0_0.vhd:70]
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_MODE_OF_OPERATION bound to: 0 - type: integer 
+	Parameter C_MODULUS bound to: 9 - type: integer 
+	Parameter C_ACCUMULATOR_WIDTH bound to: 16 - type: integer 
+	Parameter C_CHANNELS bound to: 1 - type: integer 
+	Parameter C_HAS_PHASE_OUT bound to: 0 - type: integer 
+	Parameter C_HAS_PHASEGEN bound to: 1 - type: integer 
+	Parameter C_HAS_SINCOS bound to: 1 - type: integer 
+	Parameter C_LATENCY bound to: 7 - type: integer 
+	Parameter C_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_NEGATIVE_COSINE bound to: 0 - type: integer 
+	Parameter C_NEGATIVE_SINE bound to: 0 - type: integer 
+	Parameter C_NOISE_SHAPING bound to: 0 - type: integer 
+	Parameter C_OUTPUTS_REQUIRED bound to: 0 - type: integer 
+	Parameter C_OUTPUT_FORM bound to: 0 - type: integer 
+	Parameter C_OUTPUT_WIDTH bound to: 14 - type: integer 
+	Parameter C_PHASE_ANGLE_WIDTH bound to: 14 - type: integer 
+	Parameter C_PHASE_INCREMENT bound to: 2 - type: integer 
+	Parameter C_PHASE_INCREMENT_VALUE bound to: 1000001100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 - type: string 
+	Parameter C_RESYNC bound to: 0 - type: integer 
+	Parameter C_PHASE_OFFSET bound to: 0 - type: integer 
+	Parameter C_PHASE_OFFSET_VALUE bound to: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 - type: string 
+	Parameter C_OPTIMISE_GOAL bound to: 0 - type: integer 
+	Parameter C_USE_DSP48 bound to: 0 - type: integer 
+	Parameter C_POR_MODE bound to: 0 - type: integer 
+	Parameter C_AMPLITUDE bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_HAS_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_TREADY bound to: 0 - type: integer 
+	Parameter C_HAS_S_PHASE bound to: 0 - type: integer 
+	Parameter C_S_PHASE_TDATA_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_PHASE_HAS_TUSER bound to: 0 - type: integer 
+	Parameter C_S_PHASE_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_S_CONFIG bound to: 0 - type: integer 
+	Parameter C_S_CONFIG_SYNC_MODE bound to: 0 - type: integer 
+	Parameter C_S_CONFIG_TDATA_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_M_DATA bound to: 1 - type: integer 
+	Parameter C_M_DATA_TDATA_WIDTH bound to: 16 - type: integer 
+	Parameter C_M_DATA_HAS_TUSER bound to: 0 - type: integer 
+	Parameter C_M_DATA_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_M_PHASE bound to: 0 - type: integer 
+	Parameter C_M_PHASE_TDATA_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_PHASE_HAS_TUSER bound to: 0 - type: integer 
+	Parameter C_M_PHASE_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_DEBUG_INTERFACE bound to: 0 - type: integer 
+	Parameter C_CHAN_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'dds_compiler_v6_0_15' declared at 'd:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.srcs/sources_1/bd/DAC/ipshared/0513/hdl/dds_compiler_v6_0_vh_rfs.vhd:47294' bound to instance 'U0' of component 'dds_compiler_v6_0_15' [d:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.srcs/sources_1/bd/DAC/ip/DAC_dds_compiler_0_0/synth/DAC_dds_compiler_0_0.vhd:169]
+INFO: [Synth 8-256] done synthesizing module 'DAC_dds_compiler_0_0' (9#1) [d:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.srcs/sources_1/bd/DAC/ip/DAC_dds_compiler_0_0/synth/DAC_dds_compiler_0_0.vhd:67]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized9 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized9 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized9 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized9 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized9 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized21 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized21 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized21 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized21 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized21 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized15 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized15 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized15 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized17 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized17 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized17 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized13 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized13 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized13 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized11 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized11 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized11 has unconnected port SINIT
+WARNING: [Synth 8-3331] design sin_cos has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized7 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized7 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized7 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized5 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized5 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized5 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized5 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized5 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized3 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized3 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized3 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized3 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized3 has unconnected port SINIT
+WARNING: [Synth 8-3331] design accum has unconnected port chan_addr[0]
+WARNING: [Synth 8-3331] design accum has unconnected port chan_addr_del2[0]
+WARNING: [Synth 8-3331] design accum has unconnected port chan_addr_del3[0]
+WARNING: [Synth 8-3331] design accum has unconnected port addr_i[3]
+WARNING: [Synth 8-3331] design accum has unconnected port addr_i[2]
+WARNING: [Synth 8-3331] design accum has unconnected port addr_i[1]
+WARNING: [Synth 8-3331] design accum has unconnected port addr_i[0]
+WARNING: [Synth 8-3331] design accum has unconnected port phase_inc_we
+WARNING: [Synth 8-3331] design accum has unconnected port phase_adj_we
+WARNING: [Synth 8-3331] design accum has unconnected port poff_in[15]
+WARNING: [Synth 8-3331] design accum has unconnected port poff_in[14]
+WARNING: [Synth 8-3331] design accum has unconnected port poff_in[13]
+WARNING: [Synth 8-3331] design accum has unconnected port poff_in[12]
+WARNING: [Synth 8-3331] design accum has unconnected port poff_in[11]
+WARNING: [Synth 8-3331] design accum has unconnected port poff_in[10]
+WARNING: [Synth 8-3331] design accum has unconnected port poff_in[9]
+WARNING: [Synth 8-3331] design accum has unconnected port poff_in[8]
+WARNING: [Synth 8-3331] design accum has unconnected port poff_in[7]
+WARNING: [Synth 8-3331] design accum has unconnected port poff_in[6]
+WARNING: [Synth 8-3331] design accum has unconnected port poff_in[5]
+WARNING: [Synth 8-3331] design accum has unconnected port poff_in[4]
+WARNING: [Synth 8-3331] design accum has unconnected port poff_in[3]
+WARNING: [Synth 8-3331] design accum has unconnected port poff_in[2]
+WARNING: [Synth 8-3331] design accum has unconnected port poff_in[1]
+WARNING: [Synth 8-3331] design accum has unconnected port poff_in[0]
+WARNING: [Synth 8-3331] design accum has unconnected port data_i[15]
+WARNING: [Synth 8-3331] design accum has unconnected port data_i[14]
+WARNING: [Synth 8-3331] design accum has unconnected port data_i[13]
+WARNING: [Synth 8-3331] design accum has unconnected port data_i[12]
+WARNING: [Synth 8-3331] design accum has unconnected port data_i[11]
+WARNING: [Synth 8-3331] design accum has unconnected port data_i[10]
+WARNING: [Synth 8-3331] design accum has unconnected port data_i[9]
+WARNING: [Synth 8-3331] design accum has unconnected port data_i[8]
+WARNING: [Synth 8-3331] design accum has unconnected port data_i[7]
+WARNING: [Synth 8-3331] design accum has unconnected port data_i[6]
+WARNING: [Synth 8-3331] design accum has unconnected port data_i[5]
+WARNING: [Synth 8-3331] design accum has unconnected port data_i[4]
+WARNING: [Synth 8-3331] design accum has unconnected port data_i[3]
+WARNING: [Synth 8-3331] design accum has unconnected port data_i[2]
+WARNING: [Synth 8-3331] design accum has unconnected port data_i[1]
+WARNING: [Synth 8-3331] design accum has unconnected port data_i[0]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized19 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized19 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized19 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized19 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized19 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized1 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized1 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_4_viv__parameterized1 has unconnected port SINIT
+WARNING: [Synth 8-3331] design dds_compiler_v6_0_15_core has unconnected port RFD
+WARNING: [Synth 8-3331] design dds_compiler_v6_0_15_core has unconnected port CHANNEL[0]
+WARNING: [Synth 8-3331] design dds_compiler_v6_0_15_core has unconnected port COSINE[13]
+WARNING: [Synth 8-3331] design dds_compiler_v6_0_15_core has unconnected port COSINE[12]
+WARNING: [Synth 8-3331] design dds_compiler_v6_0_15_core has unconnected port COSINE[11]
+WARNING: [Synth 8-3331] design dds_compiler_v6_0_15_core has unconnected port COSINE[10]
+WARNING: [Synth 8-3331] design dds_compiler_v6_0_15_core has unconnected port COSINE[9]
+WARNING: [Synth 8-3331] design dds_compiler_v6_0_15_core has unconnected port COSINE[8]
+WARNING: [Synth 8-3331] design dds_compiler_v6_0_15_core has unconnected port COSINE[7]
+WARNING: [Synth 8-3331] design dds_compiler_v6_0_15_core has unconnected port COSINE[6]
+WARNING: [Synth 8-3331] design dds_compiler_v6_0_15_core has unconnected port COSINE[5]
+WARNING: [Synth 8-3331] design dds_compiler_v6_0_15_core has unconnected port COSINE[4]
+WARNING: [Synth 8-3331] design dds_compiler_v6_0_15_core has unconnected port COSINE[3]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 481.031 ; gain = 228.133
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 481.031 ; gain = 228.133
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.srcs/sources_1/bd/DAC/ip/DAC_dds_compiler_0_0/DAC_dds_compiler_0_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.srcs/sources_1/bd/DAC/ip/DAC_dds_compiler_0_0/DAC_dds_compiler_0_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [D:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.runs/DAC_dds_compiler_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.runs/DAC_dds_compiler_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 751.539 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 751.539 ; gain = 498.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:54 ; elapsed = 00:00:59 . Memory (MB): peak = 751.539 ; gain = 498.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  D:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.runs/DAC_dds_compiler_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:54 ; elapsed = 00:00:59 . Memory (MB): peak = 751.539 ; gain = 498.641
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5547] Trying to map ROM "sin_cos_lut" into Block RAM due to explicit "ram_style" or "rom_style" specification
+WARNING: [Synth 8-6040] Register ¿Ùoê˛ driving address of a ROM cannot be packed in BRAM/URAM because of presence of initial value.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:55 ; elapsed = 00:01:00 . Memory (MB): peak = 751.539 ; gain = 498.641
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'U0/i_synth/i_dds/I_PHASEGEN.i_conventional_accum.i_phase_final_speedup' (xbip_pipe_v3_0_4_viv__parameterized9) to 'U0/i_synth/i_dds/I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe'
+INFO: [Synth 8-223] decloning instance 'U0/i_synth/i_dds/I_PHASEGEN.i_conventional_accum.i_phase_final_speedup' (xbip_pipe_v3_0_4_viv__parameterized9) to 'U0/i_synth/i_dds/I_PHASEGEN.i_conventional_accum.i_fabric.i_dither_pipe'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:56 ; elapsed = 00:01:01 . Memory (MB): peak = 751.539 ; gain = 498.641
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:15 ; elapsed = 00:01:21 . Memory (MB): peak = 751.539 ; gain = 498.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:15 ; elapsed = 00:01:21 . Memory (MB): peak = 751.586 ; gain = 498.688
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_block_rom.i_pipe_1.pre_asyn_cos_RAM_op_reg[12]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_block_rom.i_pipe_1.pre_asyn_cos_RAM_op_reg[11]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_block_rom.i_pipe_1.pre_asyn_cos_RAM_op_reg[10]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_block_rom.i_pipe_1.pre_asyn_cos_RAM_op_reg[9]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_block_rom.i_pipe_1.pre_asyn_cos_RAM_op_reg[8]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_block_rom.i_pipe_1.pre_asyn_cos_RAM_op_reg[7]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_block_rom.i_pipe_1.pre_asyn_cos_RAM_op_reg[6]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_block_rom.i_pipe_1.pre_asyn_cos_RAM_op_reg[5]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_block_rom.i_pipe_1.pre_asyn_cos_RAM_op_reg[4]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_block_rom.i_pipe_1.pre_asyn_cos_RAM_op_reg[3]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_block_rom.i_pipe_1.pre_asyn_cos_RAM_op_reg[2]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_block_rom.i_pipe_1.pre_asyn_cos_RAM_op_reg[0]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_pipe_2_a.asyn_cos_RAM_op_reg[12]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_pipe_2_a.asyn_cos_RAM_op_reg[11]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_pipe_2_a.asyn_cos_RAM_op_reg[10]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_pipe_2_a.asyn_cos_RAM_op_reg[9]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_pipe_2_a.asyn_cos_RAM_op_reg[8]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_pipe_2_a.asyn_cos_RAM_op_reg[7]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_pipe_2_a.asyn_cos_RAM_op_reg[6]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_pipe_2_a.asyn_cos_RAM_op_reg[5]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_pipe_2_a.asyn_cos_RAM_op_reg[4]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_pipe_2_a.asyn_cos_RAM_op_reg[3]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_pipe_2_a.asyn_cos_RAM_op_reg[2]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+INFO: [Synth 8-3332] Sequential element (i_dds/I_SINCOS.i_std_rom.i_rom/i_rtl.i_quarter_table.i_pipe_2_a.asyn_cos_RAM_op_reg[0]) is unused and will be removed from module dds_compiler_v6_0_15_viv.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:15 ; elapsed = 00:01:21 . Memory (MB): peak = 770.852 ; gain = 517.953
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:16 ; elapsed = 00:01:22 . Memory (MB): peak = 770.852 ; gain = 517.953
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:16 ; elapsed = 00:01:22 . Memory (MB): peak = 770.852 ; gain = 517.953
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:16 ; elapsed = 00:01:22 . Memory (MB): peak = 770.852 ; gain = 517.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:16 ; elapsed = 00:01:22 . Memory (MB): peak = 770.852 ; gain = 517.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:16 ; elapsed = 00:01:22 . Memory (MB): peak = 770.852 ; gain = 517.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:16 ; elapsed = 00:01:22 . Memory (MB): peak = 770.852 ; gain = 517.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |CARRY4     |     4|
+|2     |LUT1       |     3|
+|3     |LUT2       |    23|
+|4     |LUT3       |    16|
+|5     |LUT4       |     6|
+|6     |LUT5       |     5|
+|7     |LUT6       |    11|
+|8     |RAMB18E1_2 |     1|
+|9     |RAMB36E1_2 |     1|
+|10    |SRL16E     |     3|
+|11    |FDRE       |   126|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:16 ; elapsed = 00:01:22 . Memory (MB): peak = 770.852 ; gain = 517.953
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 22 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:01:11 . Memory (MB): peak = 770.852 ; gain = 247.445
+Synthesis Optimization Complete : Time (s): cpu = 00:01:17 ; elapsed = 00:01:23 . Memory (MB): peak = 770.852 ; gain = 517.953
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 108 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:19 ; elapsed = 00:01:26 . Memory (MB): peak = 770.852 ; gain = 526.609
+INFO: [Common 17-1381] The checkpoint 'D:/NextLab/Vivado/redpitaya_Practice/redpitaya_Practice.runs/DAC_dds_compiler_0_0_synth_1/DAC_dds_compiler_0_0.dcp' has been generated.

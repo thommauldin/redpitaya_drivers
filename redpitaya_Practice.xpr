@@ -58,42 +58,80 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sources_1/bd/ADC/ADC.bd">
+      <File Path="G:/My Drive/NEXTLab/Grad/Reference/axis_red_pitaya_dac_v1_0/axis_red_pitaya_dac.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="ADC.bd" FileRelPathName="ip/ADC_xlconstant_0_0/ADC_xlconstant_0_0.xci">
-          <Proxy FileSetName="ADC_xlconstant_0_0"/>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/DAC/DAC.bd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+        <CompFileExtendedInfo CompFileName="DAC.bd" FileRelPathName="ip/DAC_clk_wiz_0/DAC_clk_wiz_0.xci">
+          <Proxy FileSetName="DAC_clk_wiz_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ADC.bd" FileRelPathName="ip/ADC_axi_gpio_0_0/ADC_axi_gpio_0_0.xci">
-          <Proxy FileSetName="ADC_axi_gpio_0_0"/>
+        <CompFileExtendedInfo CompFileName="DAC.bd" FileRelPathName="ip/DAC_processing_system7_0_0/DAC_processing_system7_0_0.xci">
+          <Proxy FileSetName="DAC_processing_system7_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ADC.bd" FileRelPathName="ip/ADC_xbar_0/ADC_xbar_0.xci">
-          <Proxy FileSetName="ADC_xbar_0"/>
+        <CompFileExtendedInfo CompFileName="DAC.bd" FileRelPathName="ip/DAC_dds_compiler_0_0/DAC_dds_compiler_0_0.xci">
+          <Proxy FileSetName="DAC_dds_compiler_0_0"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="DAC.bd" FileRelPathName="ip/DAC_ila_0_0/DAC_ila_0_0.xci">
+          <Proxy FileSetName="DAC_ila_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="DAC.bd" FileRelPathName="ip/DAC_axis_red_pitaya_dac_0_0/DAC_axis_red_pitaya_dac_0_0.xci">
+          <Proxy FileSetName="DAC_axis_red_pitaya_dac_0_0"/>
+        </CompFileExtendedInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/DAC/hdl/DAC_wrapper.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/ADC/ADC.bd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
         <CompFileExtendedInfo CompFileName="ADC.bd" FileRelPathName="ip/ADC_Parallel_ADC_Stream_0_0/ADC_Parallel_ADC_Stream_0_0.xci">
           <Proxy FileSetName="ADC_Parallel_ADC_Stream_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ADC.bd" FileRelPathName="ip/ADC_system_ila_0_0/ADC_system_ila_0_0.xci">
-          <Proxy FileSetName="ADC_system_ila_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ADC.bd" FileRelPathName="ip/ADC_axi_smc_0/ADC_axi_smc_0.xci">
-          <Proxy FileSetName="ADC_axi_smc_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="ADC.bd" FileRelPathName="ip/ADC_axi_dma_0_0/ADC_axi_dma_0_0.xci">
           <Proxy FileSetName="ADC_axi_dma_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="ADC.bd" FileRelPathName="ip/ADC_rst_ps7_0_125M_0/ADC_rst_ps7_0_125M_0.xci">
-          <Proxy FileSetName="ADC_rst_ps7_0_125M_0"/>
+        <CompFileExtendedInfo CompFileName="ADC.bd" FileRelPathName="ip/ADC_axi_smc_0/ADC_axi_smc_0.xci">
+          <Proxy FileSetName="ADC_axi_smc_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="ADC.bd" FileRelPathName="ip/ADC_processing_system7_0_0/ADC_processing_system7_0_0.xci">
           <Proxy FileSetName="ADC_processing_system7_0_0"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ADC.bd" FileRelPathName="ip/ADC_rst_ps7_0_125M_0/ADC_rst_ps7_0_125M_0.xci">
+          <Proxy FileSetName="ADC_rst_ps7_0_125M_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ADC.bd" FileRelPathName="ip/ADC_xbar_0/ADC_xbar_0.xci">
+          <Proxy FileSetName="ADC_xbar_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ADC.bd" FileRelPathName="ip/ADC_system_ila_0_0/ADC_system_ila_0_0.xci">
+          <Proxy FileSetName="ADC_system_ila_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ADC.bd" FileRelPathName="ip/ADC_axi_gpio_0_0/ADC_axi_gpio_0_0.xci">
+          <Proxy FileSetName="ADC_axi_gpio_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ADC.bd" FileRelPathName="ip/ADC_xlconstant_0_0/ADC_xlconstant_0_0.xci">
+          <Proxy FileSetName="ADC_xlconstant_0_0"/>
+        </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/ADC/hdl/ADC_wrapper.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -106,11 +144,11 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="LED.bd" FileRelPathName="ip/LED_processing_system7_0_0/LED_processing_system7_0_0.xci">
-          <Proxy FileSetName="LED_processing_system7_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="LED.bd" FileRelPathName="ip/LED_xlconstant_0_0/LED_xlconstant_0_0.xci">
           <Proxy FileSetName="LED_xlconstant_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="LED.bd" FileRelPathName="ip/LED_processing_system7_0_0/LED_processing_system7_0_0.xci">
+          <Proxy FileSetName="LED_processing_system7_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/LED/hdl/LED_wrapper.vhd">
@@ -144,17 +182,9 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/bd/DAC/DAC.bd">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="ADC_wrapper"/>
+        <Option Name="TopModule" Val="DAC_wrapper"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -245,6 +275,36 @@
     <FileSet Name="ADC_Parallel_ADC_Stream_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ADC_Parallel_ADC_Stream_0_0">
       <Config>
         <Option Name="TopModule" Val="ADC_Parallel_ADC_Stream_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="DAC_processing_system7_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/DAC_processing_system7_0_0">
+      <Config>
+        <Option Name="TopModule" Val="DAC_processing_system7_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="DAC_dds_compiler_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/DAC_dds_compiler_0_0">
+      <Config>
+        <Option Name="TopModule" Val="DAC_dds_compiler_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="DAC_ila_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/DAC_ila_0_0">
+      <Config>
+        <Option Name="TopModule" Val="DAC_ila_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="DAC_clk_wiz_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/DAC_clk_wiz_0">
+      <Config>
+        <Option Name="TopModule" Val="DAC_clk_wiz_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="DAC_axis_red_pitaya_dac_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/DAC_axis_red_pitaya_dac_0_0">
+      <Config>
+        <Option Name="TopModule" Val="DAC_axis_red_pitaya_dac_0_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -370,6 +430,61 @@
     <Run Id="ADC_Parallel_ADC_Stream_0_0_synth_1" Type="Ft3:Synth" SrcSet="ADC_Parallel_ADC_Stream_0_0" Part="xc7z010clg400-1" ConstrsSet="ADC_Parallel_ADC_Stream_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/ADC_Parallel_ADC_Stream_0_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2017"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="DAC_processing_system7_0_0_synth_1" Type="Ft3:Synth" SrcSet="DAC_processing_system7_0_0" Part="xc7z010clg400-1" ConstrsSet="DAC_processing_system7_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/DAC_processing_system7_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2017"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="DAC_dds_compiler_0_0_synth_1" Type="Ft3:Synth" SrcSet="DAC_dds_compiler_0_0" Part="xc7z010clg400-1" ConstrsSet="DAC_dds_compiler_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/DAC_dds_compiler_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2017"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="DAC_ila_0_0_synth_1" Type="Ft3:Synth" SrcSet="DAC_ila_0_0" Part="xc7z010clg400-1" ConstrsSet="DAC_ila_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/DAC_ila_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2017"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="DAC_clk_wiz_0_synth_1" Type="Ft3:Synth" SrcSet="DAC_clk_wiz_0" Part="xc7z010clg400-1" ConstrsSet="DAC_clk_wiz_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/DAC_clk_wiz_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2017"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="DAC_axis_red_pitaya_dac_0_0_synth_1" Type="Ft3:Synth" SrcSet="DAC_axis_red_pitaya_dac_0_0" Part="xc7z010clg400-1" ConstrsSet="DAC_axis_red_pitaya_dac_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/DAC_axis_red_pitaya_dac_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -572,6 +687,96 @@
     <Run Id="ADC_Parallel_ADC_Stream_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="ADC_Parallel_ADC_Stream_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="ADC_Parallel_ADC_Stream_0_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2017"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="DAC_processing_system7_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="DAC_processing_system7_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="DAC_processing_system7_0_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2017"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="DAC_dds_compiler_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="DAC_dds_compiler_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="DAC_dds_compiler_0_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2017"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="DAC_ila_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="DAC_ila_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="DAC_ila_0_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2017"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="DAC_clk_wiz_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="DAC_clk_wiz_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="DAC_clk_wiz_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2017"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="DAC_axis_red_pitaya_dac_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="DAC_axis_red_pitaya_dac_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="DAC_axis_red_pitaya_dac_0_0_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

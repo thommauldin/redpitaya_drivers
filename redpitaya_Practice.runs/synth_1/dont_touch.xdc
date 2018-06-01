@@ -3,40 +3,22 @@
 
 # XDC: new/Pin_out.xdc
 
-# Block Designs: bd/ADC/ADC.bd
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ADC || ORIG_REF_NAME==ADC} -quiet] -quiet
+# Block Designs: bd/DAC/DAC.bd
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==DAC || ORIG_REF_NAME==DAC} -quiet] -quiet
 
-# IP: bd/ADC/ip/ADC_processing_system7_0_0/ADC_processing_system7_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ADC_processing_system7_0_0 || ORIG_REF_NAME==ADC_processing_system7_0_0} -quiet] -quiet
+# IP: bd/DAC/ip/DAC_processing_system7_0_0/DAC_processing_system7_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==DAC_processing_system7_0_0 || ORIG_REF_NAME==DAC_processing_system7_0_0} -quiet] -quiet
 
-# IP: bd/ADC/ip/ADC_axi_dma_0_0/ADC_axi_dma_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ADC_axi_dma_0_0 || ORIG_REF_NAME==ADC_axi_dma_0_0} -quiet] -quiet
+# IP: bd/DAC/ip/DAC_dds_compiler_0_0/DAC_dds_compiler_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==DAC_dds_compiler_0_0 || ORIG_REF_NAME==DAC_dds_compiler_0_0} -quiet] -quiet
 
-# IP: bd/ADC/ip/ADC_axi_smc_0/ADC_axi_smc_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ADC_axi_smc_0 || ORIG_REF_NAME==ADC_axi_smc_0} -quiet] -quiet
+# IP: bd/DAC/ip/DAC_axis_red_pitaya_dac_0_0/DAC_axis_red_pitaya_dac_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==DAC_axis_red_pitaya_dac_0_0 || ORIG_REF_NAME==DAC_axis_red_pitaya_dac_0_0} -quiet] -quiet
 
-# IP: bd/ADC/ip/ADC_rst_ps7_0_125M_0/ADC_rst_ps7_0_125M_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ADC_rst_ps7_0_125M_0 || ORIG_REF_NAME==ADC_rst_ps7_0_125M_0} -quiet] -quiet
+# IP: bd/DAC/ip/DAC_ila_0_0/DAC_ila_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==DAC_ila_0_0 || ORIG_REF_NAME==DAC_ila_0_0} -quiet] -quiet
 
-# IP: bd/ADC/ip/ADC_ps7_0_axi_periph_0/ADC_ps7_0_axi_periph_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ADC_ps7_0_axi_periph_0 || ORIG_REF_NAME==ADC_ps7_0_axi_periph_0} -quiet] -quiet
+# IP: bd/DAC/ip/DAC_clk_wiz_0/DAC_clk_wiz_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==DAC_clk_wiz_0 || ORIG_REF_NAME==DAC_clk_wiz_0} -quiet] -quiet
 
-# IP: bd/ADC/ip/ADC_Parallel_ADC_Stream_0_0/ADC_Parallel_ADC_Stream_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ADC_Parallel_ADC_Stream_0_0 || ORIG_REF_NAME==ADC_Parallel_ADC_Stream_0_0} -quiet] -quiet
-
-# IP: bd/ADC/ip/ADC_system_ila_0_0/ADC_system_ila_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ADC_system_ila_0_0 || ORIG_REF_NAME==ADC_system_ila_0_0} -quiet] -quiet
-
-# IP: bd/ADC/ip/ADC_xlconstant_0_0/ADC_xlconstant_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ADC_xlconstant_0_0 || ORIG_REF_NAME==ADC_xlconstant_0_0} -quiet] -quiet
-
-# IP: bd/ADC/ip/ADC_xbar_0/ADC_xbar_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ADC_xbar_0 || ORIG_REF_NAME==ADC_xbar_0} -quiet] -quiet
-
-# IP: bd/ADC/ip/ADC_axi_gpio_0_0/ADC_axi_gpio_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ADC_axi_gpio_0_0 || ORIG_REF_NAME==ADC_axi_gpio_0_0} -quiet] -quiet
-
-# IP: bd/ADC/ip/ADC_auto_pc_0/ADC_auto_pc_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ADC_auto_pc_0 || ORIG_REF_NAME==ADC_auto_pc_0} -quiet] -quiet
-
-# XDC: bd/ADC/ADC_ooc.xdc
+# XDC: bd/DAC/DAC_ooc.xdc

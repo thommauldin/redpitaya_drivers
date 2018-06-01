@@ -9,70 +9,59 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="31200fs"></ZoomStartTime>
-      <ZoomEndTime time="41491fs"></ZoomEndTime>
-      <Cursor1Time time="34000fs"></Cursor1Time>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4096001fs"></ZoomEndTime>
+      <Cursor1Time time="81000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="141"></NameColumnWidth>
+      <NameColumnWidth column_width="218"></NameColumnWidth>
       <ValueColumnWidth column_width="58"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="6" />
    <wave_markers>
    </wave_markers>
-   <wvobject fp_name="ADC_i/system_ila_0/inst/probe0_1" type="array">
-      <obj_property name="DisplayName">label</obj_property>
-      <obj_property name="ElementShortName">ADC_i/system_ila_0/inst/probe0_1[31:0]</obj_property>
-      <obj_property name="ObjectShortName">probe0_1[31:0]</obj_property>
-      <obj_property name="label">Parallel_ADC_Stream_0_m00_axis_tdata</obj_property>
+   <wvobject fp_name="DAC_i/axis_red_pitaya_dac_0_dac_dat" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">DAC_i/axis_red_pitaya_dac_0_dac_dat[13:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_red_pitaya_dac_0_dac_dat[13:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
-      <obj_property name="AnalogYRangeMin">3661</obj_property>
-      <obj_property name="AnalogYRRangeMax">12938</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
    </wvobject>
-   <wvobject fp_name="ADC_i/system_ila_0/inst/probe1_1" type="logic">
-      <obj_property name="DisplayName">label</obj_property>
-      <obj_property name="ElementShortName">ADC_i/system_ila_0/inst/probe1_1</obj_property>
-      <obj_property name="ObjectShortName">probe1_1</obj_property>
-      <obj_property name="label">Parallel_ADC_Stream_0_m00_axis_tlast</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+   <wvobject fp_name="DAC_i/axis_red_pitaya_dac_0_dac_rst" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">DAC_i/axis_red_pitaya_dac_0_dac_rst</obj_property>
+      <obj_property name="ObjectShortName">axis_red_pitaya_dac_0_dac_rst</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="ADC_i/system_ila_0/inst/probe2_1" type="logic">
-      <obj_property name="DisplayName">label</obj_property>
-      <obj_property name="ElementShortName">ADC_i/system_ila_0/inst/probe2_1</obj_property>
-      <obj_property name="ObjectShortName">probe2_1</obj_property>
-      <obj_property name="label">Parallel_ADC_Stream_0_m00_axis_tvalid</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+   <wvobject fp_name="DAC_i/axis_red_pitaya_dac_0_dac_sel" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">DAC_i/axis_red_pitaya_dac_0_dac_sel</obj_property>
+      <obj_property name="ObjectShortName">axis_red_pitaya_dac_0_dac_sel</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="ADC_i/system_ila_0/inst/probe3_1" type="logic">
-      <obj_property name="DisplayName">label</obj_property>
-      <obj_property name="ElementShortName">ADC_i/system_ila_0/inst/probe3_1</obj_property>
-      <obj_property name="ObjectShortName">probe3_1</obj_property>
-      <obj_property name="label">Net</obj_property>
+   <wvobject fp_name="DAC_i/dds_compiler_0_m_axis_data_tdata" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">DAC_i/dds_compiler_0_m_axis_data_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dds_compiler_0_m_axis_data_tdata[15:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="ADC_i/system_ila_0/inst/probe4_1" type="array">
-      <obj_property name="DisplayName">label</obj_property>
-      <obj_property name="ElementShortName">ADC_i/system_ila_0/inst/probe4_1[3:0]</obj_property>
-      <obj_property name="ObjectShortName">probe4_1[3:0]</obj_property>
-      <obj_property name="label">Parallel_ADC_Stream_0_m00_axis_tstrb</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+   <wvobject fp_name="DAC_i/processing_system7_0_FCLK_CLK0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">DAC_i/processing_system7_0_FCLK_CLK0</obj_property>
+      <obj_property name="ObjectShortName">processing_system7_0_FCLK_CLK0</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="ADC_i/system_ila_0/inst/probe5_1" type="logic">
-      <obj_property name="DisplayName">label</obj_property>
-      <obj_property name="ElementShortName">ADC_i/system_ila_0/inst/probe5_1</obj_property>
-      <obj_property name="ObjectShortName">probe5_1</obj_property>
-      <obj_property name="label">D0A</obj_property>
+   <wvobject fp_name="DAC_i/axis_red_pitaya_dac_0_dac_clk" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">DAC_i/axis_red_pitaya_dac_0_dac_clk</obj_property>
+      <obj_property name="ObjectShortName">axis_red_pitaya_dac_0_dac_clk</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>

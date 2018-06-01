@@ -1,56 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_2" LaunchPart="xc7z010clg400-1" LaunchTime="1527429739">
-  <File Type="ROUTE-PWR" Name="ADC_wrapper_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="ADC_wrapper.tcl"/>
-  <File Type="PWROPT-DCP" Name="ADC_wrapper_pwropt.dcp"/>
-  <File Type="ROUTE-PWR-SUM" Name="ADC_wrapper_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="ADC_wrapper_reports.tcl"/>
-  <File Type="BG-DRC" Name="ADC_wrapper.drc"/>
-  <File Type="OPT-HWDEF" Name="ADC_wrapper.hwdef"/>
-  <File Type="OPT-DCP" Name="ADC_wrapper_opt.dcp"/>
-  <File Type="OPT-DRC" Name="ADC_wrapper_drc_opted.rpt"/>
-  <File Type="PLACE-DCP" Name="ADC_wrapper_placed.dcp"/>
-  <File Type="PLACE-IO" Name="ADC_wrapper_io_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="ADC_wrapper_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="ADC_wrapper_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="ADC_wrapper_control_sets_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="ADC_wrapper_incremental_reuse_pre_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="ADC_wrapper_postplace_pwropt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="ADC_wrapper_physopt.dcp"/>
-  <File Type="BG-BIT" Name="ADC_wrapper.bit"/>
-  <File Type="ROUTE-ERROR-DCP" Name="ADC_wrapper_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="ADC_wrapper_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="ADC_wrapper_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="ADC_wrapper_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="ADC_wrapper_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="ADC_wrapper_drc_routed.rpx"/>
-  <File Type="BITSTR-MSK" Name="ADC_wrapper.msk"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="ADC_wrapper_methodology_drc_routed.rpt"/>
-  <File Type="BG-BGN" Name="ADC_wrapper.bgn"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ADC_wrapper_methodology_drc_routed.rpx"/>
-  <File Type="BITSTR-RBT" Name="ADC_wrapper.rbt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ADC_wrapper_methodology_drc_routed.pb"/>
-  <File Type="BG-BIN" Name="ADC_wrapper.bin"/>
-  <File Type="ROUTE-PWR-RPX" Name="ADC_wrapper_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="ADC_wrapper_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="ADC_wrapper_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="ADC_wrapper_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="ADC_wrapper_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="ADC_wrapper_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-CLK" Name="ADC_wrapper_clock_utilization_routed.rpt"/>
-  <File Type="RDI-RDI" Name="ADC_wrapper.vdi"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ADC_wrapper_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ADC_wrapper_postroute_physopt_bb.dcp"/>
-  <File Type="BITSTR-NKY" Name="ADC_wrapper.nky"/>
-  <File Type="BITSTR-BMM" Name="ADC_wrapper_bd.bmm"/>
-  <File Type="BITSTR-MMI" Name="ADC_wrapper.mmi"/>
-  <File Type="BITSTR-LTX" Name="ADC_wrapper.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="ADC_wrapper.sysdef"/>
+<GenRun Id="impl_2" LaunchPart="xc7z010clg400-1" LaunchTime="1527618023">
+  <File Type="PWROPT-DCP" Name="DAC_wrapper_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="DAC_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="DAC_wrapper.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="DAC_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="DAC_wrapper_reports.tcl"/>
+  <File Type="BG-DRC" Name="DAC_wrapper.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="DAC_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="DAC_wrapper_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="DAC_wrapper.hwdef"/>
+  <File Type="OPT-DCP" Name="DAC_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="DAC_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="DAC_wrapper_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="DAC_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="DAC_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="DAC_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="DAC_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="DAC_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="DAC_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="DAC_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="DAC_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="DAC_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="DAC_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="DAC_wrapper_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="DAC_wrapper_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="DAC_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="DAC_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="DAC_wrapper_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="DAC_wrapper.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="DAC_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="DAC_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="DAC_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="DAC_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="DAC_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="DAC_wrapper_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="DAC_wrapper.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="DAC_wrapper_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="DAC_wrapper.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="DAC_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="DAC_wrapper.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="DAC_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="DAC_wrapper.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="DAC_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="DAC_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="DAC_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="DAC_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="DAC_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="DAC_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="DAC_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="DAC_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="DAC_wrapper.vdi"/>
+  <File Type="ROUTE-CLK" Name="DAC_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="DAC_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="DAC_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="DAC_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="DAC_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="DAC_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="DAC_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="DAC_wrapper_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="DAC_wrapper.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="DAC_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="DAC_wrapper.sysdef"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="G:/My Drive/NEXTLab/Grad/Reference/axis_red_pitaya_dac_v1_0/axis_red_pitaya_dac.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/DAC/DAC.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/DAC/hdl/DAC_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/bd/ADC/ADC.bd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -58,6 +96,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/bd/ADC/hdl/ADC_wrapper.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -104,7 +143,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="ADC_wrapper"/>
+      <Option Name="TopModule" Val="DAC_wrapper"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -132,9 +171,9 @@
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="LED_xlconstant_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ADC_axi_dma_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ADC_axi_smc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LED_xlconstant_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="LED_processing_system7_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ADC_rst_ps7_0_125M_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ADC_system_ila_0_0"/>
@@ -143,4 +182,9 @@
   <BlockFileSet Type="BlockSrcs" Name="ADC_processing_system7_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ADC_axi_gpio_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ADC_Parallel_ADC_Stream_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="DAC_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="DAC_dds_compiler_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="DAC_ila_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="DAC_clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="DAC_axis_red_pitaya_dac_0_0"/>
 </GenRun>

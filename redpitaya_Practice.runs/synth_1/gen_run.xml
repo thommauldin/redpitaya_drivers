@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1527429735">
-  <File Type="PA-TCL" Name="ADC_wrapper.tcl"/>
-  <File Type="REPORTS-TCL" Name="ADC_wrapper_reports.tcl"/>
-  <File Type="RDS-RDS" Name="ADC_wrapper.vds"/>
-  <File Type="RDS-UTIL" Name="ADC_wrapper_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="ADC_wrapper_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="ADC_wrapper.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1527618017">
+  <File Type="PA-TCL" Name="DAC_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="DAC_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="DAC_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="DAC_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="DAC_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="DAC_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="DAC_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="DAC_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="DAC_wrapper_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="G:/My Drive/NEXTLab/Grad/Reference/axis_red_pitaya_dac_v1_0/axis_red_pitaya_dac.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/DAC/DAC.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/DAC/hdl/DAC_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/bd/ADC/ADC.bd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -17,6 +42,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/bd/ADC/hdl/ADC_wrapper.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -63,7 +89,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="ADC_wrapper"/>
+      <Option Name="TopModule" Val="DAC_wrapper"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -83,9 +109,9 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="LED_xlconstant_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ADC_axi_dma_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ADC_axi_smc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LED_xlconstant_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="LED_processing_system7_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ADC_rst_ps7_0_125M_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ADC_system_ila_0_0"/>
@@ -94,4 +120,9 @@
   <BlockFileSet Type="BlockSrcs" Name="ADC_processing_system7_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ADC_axi_gpio_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ADC_Parallel_ADC_Stream_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="DAC_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="DAC_dds_compiler_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="DAC_ila_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="DAC_clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="DAC_axis_red_pitaya_dac_0_0"/>
 </GenRun>
